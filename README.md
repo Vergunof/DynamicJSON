@@ -38,7 +38,7 @@ All that you need explicity set value type.
   "id": "1809938745705498"
 }
 ```
-## iterating in JSON
+## Iterating in JSON
 ```swift
 let response: JSON = jsonResponse()
 let doubleValue: Double? = response.comments?.paging?.cursors?.doubleValue
