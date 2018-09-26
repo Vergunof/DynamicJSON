@@ -1,6 +1,6 @@
 # DynoJSON
 
-[![CI Status](https://img.shields.io/travis/Vergunof/DynoJSON.svg?style=flat)](https://travis-ci.org/Vergunof/DynoJSON)
+[![CI Status](https://travis-ci.org/Vergunof/DynamicJSON.svg?branch=master)](https://travis-ci.org/Vergunof/DynoJSON)
 [![Version](https://img.shields.io/cocoapods/v/DynoJSON.svg?style=flat)](https://cocoapods.org/pods/DynoJSON)
 [![License](https://img.shields.io/cocoapods/l/DynoJSON.svg?style=flat)](https://cocoapods.org/pods/DynoJSON)
 [![Platform](https://img.shields.io/cocoapods/p/DynoJSON.svg?style=flat)](https://cocoapods.org/pods/DynoJSON)
