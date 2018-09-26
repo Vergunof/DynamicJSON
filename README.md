@@ -1,4 +1,10 @@
-# DynamicJSON
+# DynoJSON
+
+[![CI Status](https://img.shields.io/travis/Andrew Vergunov/DynoJSON.svg?style=flat)](https://travis-ci.org/Andrew Vergunov/DynoJSON)
+[![Version](https://img.shields.io/cocoapods/v/DynoJSON.svg?style=flat)](https://cocoapods.org/pods/DynoJSON)
+[![License](https://img.shields.io/cocoapods/l/DynoJSON.svg?style=flat)](https://cocoapods.org/pods/DynoJSON)
+[![Platform](https://img.shields.io/cocoapods/p/DynoJSON.svg?style=flat)](https://cocoapods.org/pods/DynoJSON)
+
 JSON parsing using dynamicMemberLookup feature
 With this utility you can easily get needed value from JSON.
 All that you need explicity set value type.
@@ -49,3 +55,23 @@ let arrayJson: [JSON]? = response.comments?.data
 let message: String? = arrayJson?.first?.message
 // message is ":) :) :)"
 ```
+
+## Requirements
+
+## Installation
+
+DynoJSON is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'DynoJSON'
+```
+
+## Author
+
+Andrew Vergunov, andrewvergunov@gmail.com
+
+## License
+
+DynoJSON is available under the MIT license. See the LICENSE file for more info.
+
