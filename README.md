@@ -67,6 +67,8 @@ it, simply add the following line to your Podfile:
 pod 'DynoJSON'
 ```
 
+Or you can use it just by copy-pasting DynoJSON.swift to you project
+
 ## Author
 
 Andrew Vergunov, andrewvergunov@gmail.com
