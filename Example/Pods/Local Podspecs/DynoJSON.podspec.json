@@ -1,0 +1,22 @@
+{
+  "name": "DynoJSON",
+  "version": "0.1.0",
+  "summary": "A short description of DynoJSON.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Andrew Vergunov/DynoJSON",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andrew Vergunov": "andrewvergunov@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Andrew Vergunov/DynoJSON.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DynoJSON/Classes/**/*"
+}

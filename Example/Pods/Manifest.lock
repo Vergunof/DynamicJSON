@@ -1,0 +1,16 @@
+PODS:
+  - DynoJSON (0.1.0)
+
+DEPENDENCIES:
+  - DynoJSON (from `../`)
+
+EXTERNAL SOURCES:
+  DynoJSON:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DynoJSON: 29abc31cad81af49766dfc6fb420a743ef786287
+
+PODFILE CHECKSUM: d0b3abba73b912169b6eb8016c4c131dcfe69cf7
+
+COCOAPODS: 1.5.3

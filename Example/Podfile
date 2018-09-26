@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DynoJSON_Tests' do
+  pod 'DynoJSON', :path => '../'
+  
+  
+end

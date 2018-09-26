@@ -1,0 +1,6 @@
+framework module DynoJSON {
+  umbrella header "DynoJSON-umbrella.h"
+
+  export *
+  module * { export * }
+}
