@@ -1,7 +1,16 @@
-import XCTest
-import DynoJSON
+//
+//  DynamicJSONTests.swift
+//  DynamicJSONTests
+//
+//  Created by Andrew Vergunov on 9/26/18.
+//  Copyright © 2018 Andrew Vergunov. All rights reserved.
+//
 
-class Tests: XCTestCase {
+import XCTest
+@testable import DynoJSON
+
+class DynamicJSONTests: XCTestCase {
+    
     func testStringValue() {
         let response: JSON = facebookJsonResponse()
         let nextPaging: String? = response.comments?.paging?.next
@@ -32,5 +41,4 @@ class Tests: XCTestCase {
         let doubleValue: Double? = response.comments?.paging?.cursors?.doubleValue
         XCTAssert(doubleValue == 12.5)
     }
-    
 }

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4942BE10D49F0B6BD9C1AB2A /* Pods_DynoJSON_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44ABE0C5A822B0CD5C51794A /* Pods_DynoJSON_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E16D730D215B05B700AD220B /* TestsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D730C215B05B700AD220B /* TestsDataSource.swift */; };
+		E16D7386215B27C300AD220B /* TestsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D7385215B27C300AD220B /* TestsDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		8C5624002EF83F2266067D46 /* DynoJSON.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DynoJSON.podspec; path = ../DynoJSON.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8D4D3A51C4785752D1292BB9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DCC26BBF9862CDD73EF281EE /* Pods-DynoJSON_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynoJSON_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynoJSON_Tests/Pods-DynoJSON_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E16D730C215B05B700AD220B /* TestsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestsDataSource.swift; path = ../../../DynamicJSONTests/TestsDataSource.swift; sourceTree = "<group>"; };
+		E16D7385215B27C300AD220B /* TestsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				E16D730C215B05B700AD220B /* TestsDataSource.swift */,
+				E16D7385215B27C300AD220B /* TestsDataSource.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -207,7 +207,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DynoJSON_Tests/Pods-DynoJSON_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-DynoJSON_Tests/Pods-DynoJSON_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DynoJSON/DynoJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -218,7 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynoJSON_Tests/Pods-DynoJSON_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DynoJSON_Tests/Pods-DynoJSON_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16D730D215B05B700AD220B /* TestsDataSource.swift in Sources */,
+				E16D7386215B27C300AD220B /* TestsDataSource.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

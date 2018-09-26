@@ -1,9 +1,10 @@
 {
   "name": "DynoJSON",
-  "version": "0.1.0",
-  "summary": "A short description of DynoJSON.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Andrew Vergunov/DynoJSON",
+  "version": "0.1.1",
+  "summary": "JSON parsing using dynamicMemberLookup feature.",
+  "swift_version": "4.2",
+  "description": "JSON parsing using dynamicMemberLookup feature\nWith this utility you can easily get needed value from JSON.\nAll that you need explicity set value type.",
+  "homepage": "https://github.com/Vergunof/DynamicJSON",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,14 @@
     "Andrew Vergunov": "andrewvergunov@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Andrew Vergunov/DynoJSON.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Vergunof/DynamicJSON.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "osx": "10.10",
+    "ios": "8.0",
+    "tvos": "9.0",
+    "watchos": "2.0"
   },
   "source_files": "DynoJSON/Classes/**/*"
 }
